@@ -1,0 +1,72 @@
+{
+  "playbook": {
+    "playbook": {
+      "displayName": "FAQ Playbook",
+      "goal": "- Answer frequently asked questions from citizens accurately and clearly.\n- Give correct and clear information about the town\n- Make sure answers match what the town actually does\n",
+      "steps": [ {
+        "text": "Always start with a warm and friendly hello"
+      }, {
+        "text": "Only share info that is true and up-to-date"
+      }, {
+        "text": "Use simple words — no confusing terms"
+      }, {
+        "text": "If you don’t know something, tell that you cant help with that question"
+      }, {
+        "text": "Make sure the peoples feels supportive and informative"
+      } ],
+      "tools": [ "e744ae74-15cd-41fb-9eec-83ece105534d" ],
+      "etag": "684ff93b",
+      "playbookId": "00000000-0000-0000-0000-000000000000",
+      "tokenCount": 95,
+      "playbookType": "WORKFLOW",
+      "codeBlock": {
+      
+      }
+    },
+    "tools": [ {
+      "id": "e744ae74-15cd-41fb-9eec-83ece105534d",
+      "displayName": "faqs",
+      "etag": "684ff6bd",
+      "dataStoreTool": {
+        "dataStoreConnections": [ {
+          "dataStoreType": "UNSTRUCTURED",
+          "dataStore": "projects/485101432623/locations/global/collections/default_collection/dataStores/aurorabayfaqs_1750070747966",
+          "documentProcessingMode": "DOCUMENTS",
+          "engineType": "CHAT_ENGINE",
+          "connectorConfig": {
+          
+          },
+          "createTime": {
+            "seconds": 1750070751,
+            "nanos": 507531000
+          },
+          "displayName": "auroraBayFaqs",
+          "dialogflowAddTime": {
+            "seconds": 1750070973,
+            "nanos": 374000000
+          }
+        } ],
+        "models": {
+          "summarizationModel": {
+          
+          },
+          "rewriterModel": {
+          
+          }
+        },
+        "fallbackPrompt": {
+        
+        },
+        "groundingSettings": {
+        
+        },
+        "payloadSettings": {
+        
+        },
+        "voiceModeSettings": {
+        
+        }
+      }
+    } ]
+  }
+}
