@@ -43,6 +43,9 @@ This project is a **prototype chatbot** built to demonstrate a practical and sca
 
 **Hosted Chatbot URL**: https://ads-chatbot-485101432623.asia-east1.run.app/ 
 
+## Screenshot of UI
+<img width="947" alt="Screenshot 2025-06-18 at 1 38 24 AM" src="https://github.com/user-attachments/assets/24ecc310-ead2-4d7b-a8e6-be27fc0c0f53" />
+
 
 ## 🧱 Architecture Overview
 <img width="467" alt="Screenshot 2025-06-18 at 1 01 19 AM" src="https://github.com/user-attachments/assets/e549df2c-94fc-4ee9-be7e-52c2ffa152b1" />
