@@ -24,7 +24,7 @@ This project is a **prototype chatbot** built to demonstrate a practical and sca
 
 - ✅ **Backend built with Flask**  
   - Handles agent API, prompt filtering, and response validation
-  - Deployed using **Google Cloud Functions**
+  - Deployed using **Google Cloud Functions**(From Console)
   - Deployed backend URL - https://testing-485101432623.europe-west1.run.app
 - ✅ **BigQuery + Vertex AI Integration**  
   - Used for vector store, retrieval, and LLM interactions
